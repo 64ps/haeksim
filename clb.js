@@ -45,7 +45,7 @@ client.on('message', message => {
     const command = args.shift().toLowerCase();
         
     if(command === "info") {
-        message.reply("ChriLexBot v" + ver /* version is variable. */+ " \nProgrammer: sp46#0498" /* selfcrediting ftw haha */); 
+        message.reply("ChriLexBot v" + ver /* version is variable. */+ " \nProgrammer: sp46#0498" /* feel free to replace */); 
     } else if(command === "help") {
         var helptext = "**ChriLexBot** Help::\n\n**" + prefix + "info** Shows info.\n**" + prefix + "say** Says the suffix\n=> **announce** and **delsay** do the same but mention everyone and delete the message, respectively\n**" + prefix + "kick** Kicks the user, as long as the author has the Moderator Role."
         message.reply(helptext);
