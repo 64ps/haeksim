@@ -1,0 +1,21 @@
+{
+  "name": "clb",
+  "version": "1.0.0",
+  "description": "clb saas",
+  "main": "clb.js",
+  "dependencies": {
+    "colors": "^1.2.1",
+    "discord.js": "^11.3.2",
+    "npm": "^5.8.0",
+    "opusscript": "0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node clb.js"
+  },
+  "keywords": [
+    "clb"
+  ],
+  "author": "sp46",
+  "license": "MIT"
+}
