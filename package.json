@@ -1,8 +1,8 @@
 {
-  "name": "clb",
+  "name": "hks",
   "version": "1.0.0",
-  "description": "clb saas",
-  "main": "clb.js",
+  "description": "Haeksim for Discord",
+  "main": "haeksim.js",
   "dependencies": {
     "colors": "^1.2.1",
     "discord.js": "^11.3.2",
@@ -11,10 +11,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node clb.js"
+    "test": "node haeksim.js"
   },
   "keywords": [
-    "clb"
+    "discord"
   ],
   "author": "sp46",
   "license": "MIT"
