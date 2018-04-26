@@ -16,7 +16,7 @@ const BOT_OWNER = ""; // Your User ID
 
 var colors = require("colors"); // Using colors to instantly know what's going on-
                 
-console.log("Starte ChriLexBot".bold.bgBlue);
+console.log("Starting Haeksim".bold.bgBlue);
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -45,9 +45,9 @@ client.on('message', message => {
     const command = args.shift().toLowerCase();
         
     if(command === "info") {
-        message.reply("ChriLexBot v" + ver /* version is variable. */+ " \nProgrammer: sp46#0498" /* feel free to replace */); 
+        message.reply("Haeksim v" + ver /* version is variable. */+ " \nProgrammer: sp46#0498" /* feel free to replace */); 
     } else if(command === "help") {
-        var helptext = "**ChriLexBot** Help::\n\n**" + prefix + "info** Shows info.\n**" + prefix + "say** Says the suffix\n=> **announce** and **delsay** do the same but mention everyone and delete the message, respectively\n**" + prefix + "kick** Kicks the user, as long as the author has the Moderator Role."
+        var helptext = "**Haeksim** Help:\n\n**" + prefix + "info** Shows info.\n**" + prefix + "say** Says the suffix\n=> **announce** and **delsay** do the same but mention everyone and delete the message, respectively\n**" + prefix + "kick** Kicks the user, as long as the author has the Moderator Role."
         message.reply(helptext);
         
     } else if(command === "kick") {
